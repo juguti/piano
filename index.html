@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="titre">
+        <h1>Piano</h1>
+    </div>
+    <div id="main">
+        <div id="touche">
+            <div class="tb" id="1"> </div>
+            <div class="tn" id="deux"></div>
+            <div class="tb" id="3"></div>
+            <div id="quatre" class="tn"></div>
+            <div class="tb" id="5"></div>
+            <div class="tb" id="6"></div>
+            <div id="sept" class="tn"></div>
+            <div class="tb" id="8"></div>
+            <div id="neuf" class="tn"></div>
+            <div class="tb" id="10"></div>
+            <div id="onze" class="tn"></div>
+            <div class="tb" id="12"></div>
+        </div>
+
+    </div>
+    <script >
+        var sdo = new Audio('song/do.wav');
+        var sdo2 = new Audio('song/do-stretched.wav');
+        var re = new Audio('song/re.wav');
+        var re2 = new Audio('song/re-stretched.wav');
+        var mi = new Audio('song/mi.wav');
+        var fa = new Audio('song/fa.wav');
+        var fa2 = new Audio('song/fa-stretched.wav');
+        var sol = new Audio('song/sol.wav');
+        var sol2 = new Audio('song/sol-stretched.wav');
+        var la = new Audio('song/la.wav');
+        var la2 = new Audio('song/la-stretched.wav');
+        var si = new Audio('song/si.wav');
+
+
+
+        document.getElementById('1').onclick = function () {sdo.play();}
+        document.getElementById('deux').onclick = function () {sdo2.play();}
+        document.getElementById('3').onclick = function () {re.play();}
+        document.getElementById('quatre').onclick = function () {re2.play();}
+        document.getElementById('5').onclick = function () {mi.play();}
+        document.getElementById('6').onclick = function () {fa.play();}
+        document.getElementById('sept').onclick = function () {fa2.play();}
+        document.getElementById('8').onclick = function () {sol.play();}
+        document.getElementById('neuf').onclick = function () {sol2.play();}
+        document.getElementById('10').onclick = function () {la.play();}
+        document.getElementById('onze').onclick = function () {la2.play();}
+        document.getElementById('12').onclick = function () {si.play();}
+            
+        
+    </script>
+</body>
+</html>

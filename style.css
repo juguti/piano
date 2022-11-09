@@ -1,0 +1,14 @@
+body{background: url(fond.jpg);}
+#touche{position: absolute;left: 50%;top: 50%;transform: translate(-50%,-50%);width: 33%;background-color: rgb(77, 0, 0);display: flex;padding: 20px;}
+.tb{background-color: rgb(220, 218, 218);border: 2px ;width: 14%;height: 200px;}
+.tn{background-color: black;color: rgb(255, 255, 255);height: 100px;width: 6%;}
+#deux{position: absolute;left: 14%;}
+#quatre{position: absolute;left: 27%;}
+#sept{position: absolute;left: 52%;}
+#neuf{ position: absolute;left: 65%;}
+#onze{position: absolute;left: 78%;}
+.tb:hover{background-color: rgb(200, 198, 194);}
+.tb:active{background-color: rgb(107, 106, 105);}
+.tn:hover{background-color: rgb(25, 25, 25);}
+.tn:active{background-color: rgb(41, 40, 39);}
+#titre{margin: auto; color: black;background-color: aquamarine;display: flex;justify-content: center;}
